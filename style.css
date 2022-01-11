@@ -1,0 +1,48 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.TSblock,
+.SMblock,
+.BWblock,
+.CAblock {
+ 
+    width: 380px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.TSblock {  
+    background-color: rgb(170, 12, 12);
+    position: relative
+;
+}
+.SMblock {   
+    background: linear-gradient(to bottom, rgb(10, 10, 139), pink);
+    position: relative;
+}
+.BWblock {   
+    background: linear-gradient(to right, rgb(31, 31, 31), purple);
+    position: relative;
+}
+.CAblock {
+    background: linear-gradient(to bottom, red, rgb(31, 31, 31));
+    position: relative;
+}
+
+
+.title {
+    color: azure;
+    width: 150px;
+    margin-left: 260px;
+}
+
+img {
+    width: 260px;
+    position: absolute;
+    margin-bottom: 69px;
+    margin-right: 30px;
+}
+
